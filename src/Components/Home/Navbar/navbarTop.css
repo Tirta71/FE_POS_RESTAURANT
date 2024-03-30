@@ -1,0 +1,23 @@
+.navbar-desktop {
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.navbar-desktop.scrolled {
+  background-color: black;
+  top: 0;
+}
+
+.navbar-desktop.scrolled {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-desktop {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}

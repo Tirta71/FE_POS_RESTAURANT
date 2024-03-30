@@ -1,0 +1,7 @@
+.category-link:hover {
+  color: #ffc107 !important;
+}
+
+.category-link.active {
+  color: #ffc107 !important;
+}
